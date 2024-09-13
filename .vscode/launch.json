@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Debug png2jpg.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "test-input-files/input-image.png",
+                "temp-output/image.jpg"
+            ]
+        },
+        {
+            "name": "Debug jpg2png.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "test-input-files/input-image.jpg",
+                "temp-output/image"
+            ]
+        }
+    ]
+}
